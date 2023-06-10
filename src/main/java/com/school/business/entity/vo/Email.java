@@ -1,11 +1,19 @@
-package com.school.domain.student;
+package com.school.business.entity.vo;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+
 @Getter
+@Embeddable
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Email {
 
+    @Column(name = "email_address")
     private String address;
 
     public Email(String address) {

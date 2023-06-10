@@ -1,6 +1,6 @@
 package com.school.student;
 
-import com.school.domain.student.CPF;
+import com.school.business.entity.vo.CPF;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

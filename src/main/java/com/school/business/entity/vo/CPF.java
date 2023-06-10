@@ -1,11 +1,20 @@
-package com.school.domain.student;
+package com.school.business.entity.vo;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 
-@Getter
-public class CPF {
+import javax.persistence.Column;
+import javax.persistence.Embeddable;
+import java.io.Serializable;
 
+@Getter
+@Embeddable
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+public class CPF implements Serializable {
+
+    @Column(name = "cpf")
     private String number;
 
     public CPF(String number) {

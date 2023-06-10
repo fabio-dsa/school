@@ -1,6 +1,6 @@
 package com.school.student;
 
-import com.school.domain.student.Email;
+import com.school.business.entity.vo.Email;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

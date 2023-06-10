@@ -1,4 +1,8 @@
-package com.school.domain.student;
+package com.school.business.entity.builder;
+
+import com.school.business.entity.Student;
+import com.school.business.entity.vo.CPF;
+import com.school.business.entity.vo.Email;
 
 public class StudentBuilder {
 

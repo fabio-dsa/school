@@ -1,6 +1,6 @@
-package com.school.domain.recommendation;
+package com.school.business.entity;
 
-import com.school.domain.student.Student;
+import com.school.business.entity.Student;
 import lombok.Getter;
 
 import java.time.LocalDate;

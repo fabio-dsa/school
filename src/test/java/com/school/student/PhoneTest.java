@@ -1,6 +1,6 @@
 package com.school.student;
 
-import com.school.domain.student.Phone;
+import com.school.business.entity.Phone;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
